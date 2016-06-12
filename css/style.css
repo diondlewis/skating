@@ -6,12 +6,11 @@ background: -webkit-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(113,206,23
 background: -o-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 50%, rgba(33,180,226,1) 51%, rgba(183,222,237,1) 100%);
 background: -ms-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 50%, rgba(33,180,226,1) 51%, rgba(183,222,237,1) 100%);
 background: linear-gradient(to bottom, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 50%, rgba(33,180,226,1) 51%, rgba(183,222,237,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed', GradientType=0 );
 }
 
 .display {
     display: block;
-    margin: auto;
+    margin: 2em;
     -webkit-box-shadow: 1px 8px 40px -2px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 8px 40px -2px rgba(0,0,0,0.75);
     box-shadow: 1px 8px 40px -2px rgba(0,0,0,0.75);
@@ -36,7 +35,7 @@ h1 {
     color:yellow;
 }
 
-div.songlist {
+.songlist {
     text-align: center;
 }
 
